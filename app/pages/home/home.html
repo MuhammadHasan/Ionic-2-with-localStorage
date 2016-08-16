@@ -1,6 +1,6 @@
 <ion-header>
 
-  <ion-navbar #content swipeBackEnabled="false">
+  <ion-navbar #content hideBackButton="true">
     <button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
@@ -21,4 +21,28 @@
 
 <ion-content padding>
   <h1>welcome to todo app</h1>
+  <ion-list>
+
+  <ion-item>
+    <ion-label fixed>Item Name</ion-label>
+    <ion-input type="text" value="" [(ngModel)]="itemName"></ion-input>
+  </ion-item>
+
+   <ion-item>
+    <ion-label floating>Description</ion-label>
+    <ion-textarea [(ngModel)]="itemDesp"></ion-textarea>
+   </ion-item>
+
+  <button dark (click)="addTodo()"> Add </button>
+
+</ion-list>
+
+<ion-list>
+  <ion-item *ngFor="let todo of todoData; let i = index">
+    <h2>Item Name: {{todo.itemName}}</h2>
+    <h2>Description: {{todo.itemDesp}}</h2>
+    <button clear item-right (click)="deleteTodo(i)">Delete</button>
+    <button clear item-right (click)="gotoupdate(i)">Update</button>
+  </ion-item>
+</ion-list>
 </ion-content>

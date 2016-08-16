@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, Storage, LocalStorage } from 'ionic-angular';
+import { NavController, Storage, LocalStorage, AlertController } from 'ionic-angular';
 import { LoginPage } from '../login/login';
 /*
   Generated class for the SignupPage page.
@@ -15,64 +15,66 @@ export class SignupPage {
   local:any = new Storage(LocalStorage);
   username;
   password;
-  constructor(private navCtrl: NavController) {
+  constructor(private navCtrl: NavController , private alertController: AlertController) {
     
   }
   //signupData:any[]=[];
   signupData:any[] = this.local.get('signup').then(data => { this.signupData = JSON.parse(data)});
   
   signup(){
-    if(this.signupData == null ) {
-      //this.username = 
-      this.signupData = [];
+    if(this.username !== '' && this.password !== ''){
+      if(this.signupData == null ) {
+        //this.username = 
+        this.signupData = [];
 
-      this.signupData.push({username : this.username ,password: this.password});
-      console.log(this.signupData);
+        this.signupData.push({username : this.username ,password: this.password});
+        console.log(this.signupData);
 
-      this.local.set('signup', JSON.stringify(this.signupData) );
-      console.log(this.local);
-      this.goToLogin()
+        this.local.set('signup', JSON.stringify(this.signupData) );
+        console.log(this.local);
+        this.goToLogin()
+      }
+      else {
+        for (var i = 0; i < this.signupData.length; i++) {
+          if (this.signupData[i].username === this.username && this.signupData[i].password === this.password ||
+              this.signupData[i].username === this.username) {
+            this.showAlert()
+            var alert = true;
+          }/*
+          if (this.signupData[i].username === this.username) {
+            this.showAlert()
+            alert = true;
+          }*/
+          else{
+            alert = false;
+          }
+        }
+        if(alert == false){
+          //this.signupData = this.local.get('signup').then(data => { this.signupData = data});
+          console.log(this.signupData);
+          this.signupData.push({username : this.username ,password: this.password});
+          console.log(this.signupData);
+
+          this.local.set('signup', JSON.stringify(this.signupData));
+          console.log(this.local);
+          this.goToLogin()
+        }
+      }
+      
+      
     }
-    else {
-      //this.signupData = this.local.get('signup').then(data => { this.signupData = data});
-      console.log(this.signupData);
-      this.signupData.push({username : this.username ,password: this.password});
-      console.log(this.signupData);
-
-      this.local.set('signup', JSON.stringify(this.signupData));
-      console.log(this.local);
-      this.goToLogin()
-    }
-    
   }
-
   goToLogin(){
     this.navCtrl.push(LoginPage);
   }
 
+  showAlert() {
+    let alert = this.alertController.create({
+      title: 'User Already Exist',
+      subTitle: 'please change username!',
+      buttons: ['OK  ']
+    });
+    alert.present();
+  }
+
 }
-/*
-vm.signupData = JSON.parse(localStorage.getItem('signup'));
-
-  vm.signup = function () {
-    if(vm.signupData == null ) {
-
-      vm.signupData = [];
-
-      vm.signupData.push({firstName : vm.firstName ,secondName: vm.lastName ,Email: vm.email});
-      console.log(vm.signupData);
-
-      localStorage.setItem('signup', JSON.stringify(vm.signupData));
-      console.log(localStorage);
-      $state.go('login');
-    }
-    else {
-      vm.signupData.push({firstName : vm.firstName ,secondName: vm.lastName ,Email: vm.email});
-      console.log(vm.signupData);
-
-      localStorage.setItem('signup', JSON.stringify(vm.signupData));
-      console.log(localStorage);
-      $state.go('login');
-    }
-  };
-  */
