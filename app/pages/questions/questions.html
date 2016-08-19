@@ -1,0 +1,40 @@
+<!--
+  Generated template for the QuestionsPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>questions</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <button secondary clear (click)="Typeone()">SCL</button>
+  <button secondary clear (click)="Typetwo()">From 1</button>
+  <ion-list [hidden]="!typeone">
+    <ion-item *ngFor="let Questions of QuestionData | filterQuestion : 'Questionforms' : 'SCL'">
+      <h2>Question: {{Questions.Question}}</h2>
+      <h2>Question Type: {{Questions.QuestionType | capitalize}}</h2>
+      <h2>Question forms: {{Questions.Questionforms}}</h2>
+      <h2>Answer: {{Questions.Answer}}</h2>
+    </ion-item>
+  </ion-list>
+
+  <ion-list [hidden]="!typetwo">
+    <ion-item *ngFor="let Questions of QuestionData | filterQuestion : 'Questionforms' : 'form1'">
+      <h2>Question: {{Questions.Question}}</h2>
+      <h2>Question Type: {{Questions.QuestionType | capitalize}}</h2>
+      <h2>Question forms: {{Questions.Questionforms}}</h2>
+      <h2>Answer: {{Questions.Answer}}</h2>
+    </ion-item>
+  </ion-list>
+</ion-content>

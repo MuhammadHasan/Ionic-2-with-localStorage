@@ -1,0 +1,602 @@
+[
+  {
+    "Question": "I have difficulty falling asleep",
+    "QuestionType": "radio",
+    "Answer": "T/F",
+    "Questionforms": "form1"
+  },
+  {
+    "Question": "Thoughts race through my mind and this prevents me from sleeping",
+    "QuestionType": "radio",
+    "Answer": "T/F",
+    "Questionforms": "form1"
+  },
+  {
+    "Question": "I feel afraid to go to sleep",
+    "QuestionType": "radio",
+    "Answer": "T/F",
+    "Questionforms": "form1"
+  },
+  {
+    "Question": "I wake up during the night and can't go back to sleep",
+    "QuestionType": "radio",
+    "Answer": "T/F",
+    "Questionforms": "form1"
+  },
+  {
+    "Question": "I worry about things and have trouble relaxing",
+    "QuestionType": "radio",
+    "Answer": "T/F",
+    "Questionforms": "form1"
+  },
+  {
+    "Question": "Despite sleeping all night, I don't feel refreshed when I awaken",
+    "QuestionType": "radio",
+    "Answer": "T/F",
+    "Questionforms": "form1"
+  },
+  {
+    "Question": "I wake up earlier in the morning than I would like to",
+    "QuestionType": "radio",
+    "Answer": "T/F",
+    "Questionforms": "form1"
+  },
+  {
+    "Question": "I lie awake for half an hour or more before I fall asleep",
+    "QuestionType": "radio",
+    "Answer": "T/F",
+    "Questionforms": "form1"
+  },
+  {
+    "Question": "I wake in the morning with muscle or joint stiffness and aches",
+    "QuestionType": "radio",
+    "Answer": "T/F",
+    "Questionforms": "form1"
+  },
+  {
+    "Question": "I feel sad and depressed",
+    "QuestionType": "radio",
+    "Answer": "T/F",
+    "Questionforms": "form1"
+  },
+  {
+    "Question": "Soreness of your muscles",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Numbness or tingling in parts of your body",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Heavy feelings in your arms or legs",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Weakness in parts of your body",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Pain in the heart or chest",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Hot or cold spells",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Pain in lower back",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Trouble in getting your breath",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Faintness or dizziness",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "A lump in your throat",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Headaches",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Nausea or upset stomach",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Having to check and double check what you do",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Having to do things very slowly to insure correctness",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Your mind going blank",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Trouble remembering things",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Difficultly making decisions",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Trouble concentrating",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Worried about sloppiness or carelessness",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling blocked in getting things done",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Having to repeat the same actions i.e. counting, washing",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Unwanted thoughts, etc. that won�t leave your mind",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling critical of others",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling shy or uneasy with the opposite sex",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Your feelings being easily hurt",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling others don�t understand you or are unsympathetic",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling people are unfriendly or dislike you",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling inferior to others",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling uneasy when people are watching or talking about you",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling self conscious with others",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling uncomfortable when eating or drinking in public",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Loss of sexual interest or pleasure",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling low in energy or slowed down",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Thoughts of ending your life",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Crying easily",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling of being trapped or caught",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Blaming yourself for things",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling lonely",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling blue",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Worrying too much about things",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling no interest in things",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling hopelessness about the future",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling everything is an effort",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling of worthlessness",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Nervousness or shakiness inside",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Trembling",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Suddenly scared for no reason",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling fearful",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Heart pounding or racing",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling tense or keyed up",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Spells of terror and panic",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling so restless you can�t sit at all",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling that familiar things are strange or unreal",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling pushed to get things done",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling easily annoyed or irritated",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Temper outburst that you cannot control",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Having urges to beat, injure or harm someone",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Having urges to break or smash something",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Getting into frequent arguments",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Shouting or throwing things",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling afraid in open spaces or on the streets",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling afraid to go out of your house alone",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling afraid to travel on buses, sub-ways or trains",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling uneasy in crowds, such as at a movie",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling nervous when you are left alone",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling afraid you will faint in public",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Having to avoid certain things, etc. cause they frighten you",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling others are to blame for most of your troubles",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling that most people cannot be trusted",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling that you are watched or talked about by others",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Having ideas or beliefs that others do not share",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Others not giving you proper credit for your achievements",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling that people will take advantage of you if you let them",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "The idea that someone else can control your thoughts",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Hearing voices that other people do not hear",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Other people being aware of your private thoughts",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Having thoughts that are not your own",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling lonely even when you are with people",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Having thoughts of sex that bother you a lot",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "The idea that you should be punished for your sins",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "The idea that something serious is wrong with your body",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Never felling close to another person",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "The idea that something is wrong with your mind",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Poor appetite",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Overeating",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Trouble falling asleep",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Awakening in the early morning",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Sleep that is restless or disturbed",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Thoughts of death or dying",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  },
+  {
+    "Question": "Feeling of guilt",
+    "QuestionType": "Multi",
+    "Answer": "0/1/2/3/4",
+    "Questionforms": "SCL"
+  }
+]
