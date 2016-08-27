@@ -18,8 +18,8 @@
 
 <ion-content padding>
 
-  <button secondary clear (click)="Typeone()">SCL</button>
-  <button secondary clear (click)="Typetwo()">From 1</button>
+  <button dark clear (click)="Typeone()">SCL</button>
+  <button dark clear (click)="Typetwo()">From 1</button>
   <ion-list [hidden]="!typeone">
     <ion-item *ngFor="let Questions of QuestionData | filterQuestion : 'Questionforms' : 'SCL'">
       <h2>Question: {{Questions.Question}}</h2>

@@ -5,6 +5,7 @@ import {HomePage} from './pages/home/home';
 import {LoginPage} from './pages/login/login';
 import {SignupPage} from './pages/signup/signup';
 import {QuestionsPage} from './pages/questions/questions';
+import {GeolocationPage} from './pages/geolocation/geolocation';
 
 @Component({
   /*template: `<ion-nav [root]="rootPage"></ion-nav>*/
@@ -52,7 +53,8 @@ export class MyApp {
       //{ title: 'Hello Ionic', component: HelloIonicPage },
       //{ title: 'My First List', component: ListPage }
       { title: 'Todo', component: LoginPage },
-      { title: 'Questions', component: QuestionsPage }
+      { title: 'Questions', component: QuestionsPage },
+      { title: 'Geolocation', component: GeolocationPage }
     ];
   }
   openPage(page) {

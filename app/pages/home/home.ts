@@ -1,8 +1,10 @@
 import {Component} from '@angular/core';
-import {NavController, Storage, LocalStorage} from 'ionic-angular';
+import {NavController, Storage, LocalStorage, AlertController} from 'ionic-angular';
 import {LoginPage} from '../login/login';
 
 import {UpdatePage} from '../update/update';
+
+import {TodoDetailPage} from '../todo-detail/todo-detail';
 
 @Component({
   templateUrl: 'build/pages/home/home.html'
@@ -13,7 +15,7 @@ export class HomePage {
   itemDesp;
   notes: any = [];
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController, private alertController: AlertController) {
 
   }
 
@@ -21,8 +23,8 @@ export class HomePage {
 
   //todos = [this.local.get('todo').then(data => { this.todos = JSON.parse(data)})];
   addTodo(){
-    if(this.itemName === '' && this.itemDesp === ''){
-    
+    if(this.itemName === undefined && this.itemDesp === undefined){
+     this.showAlert();
     }else{
       if(this.todoData == null ) {
 
@@ -44,6 +46,8 @@ export class HomePage {
     }
     this.local.get('todo').then(data => { this.todoData = JSON.parse(data)});
     console.log(this.todoData);
+    this.itemName = undefined;
+    this.itemDesp = undefined;
   }
 
   //todos = [this.local.get('todo').then(data => { this.todos = JSON.parse(data)})];
@@ -68,6 +72,22 @@ export class HomePage {
       updateData: this.todoData[index],
       updateId: index
     });
+  }
+
+  tododetail(index: number){
+    this.navCtrl.push(TodoDetailPage,{
+      tododetail: this.todoData[index],
+      tododetail_Id: index
+    });
+  }
+
+  showAlert() {
+    let alert = this.alertController.create({
+      title: 'Invalid Data',
+      subTitle: 'please type correct data!',
+      buttons: ['OK']
+    });
+    alert.present();
   }
   
 }

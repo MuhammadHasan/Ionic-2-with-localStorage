@@ -1,0 +1,25 @@
+http://blog.ionic.io/10-minutes-with-ionic-2-using-the-camera-with-ionic-native/
+http://docs.ionic.io/v1.0/docs/view-usage
+https://forum.ionicframework.com/t/imagepicker/57502/7
+
+import { Camera, ImagePicker } from 'ionic-native';
+
+takePhoto() {
+    Camera.getPicture({
+        quality: 75,
+        destinationType: navigator.camera.DestinationType.DATA_URL,
+        sourceType: navigator.camera.PictureSourceType.CAMERA,
+        allowEdit: false,
+        encodingType: navigator.camera.EncodingType.JPEG,
+        targetWidth: 300,
+        targetHeight: 300,
+        saveToPhotoAlbum: false
+    }).then(imageData => {
+        this.zone.run(() => {
+            this.base64Image = "data:image/jpeg;base64," + imageData;
+        });
+    }, error => {
+        console.log("ERROR -> " + JSON.stringify(error));
+        alert("ERROR: " + JSON.stringify(error));
+    });
+}
